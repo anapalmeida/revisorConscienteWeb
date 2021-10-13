@@ -1,0 +1,57 @@
+.textAreaContainer {
+  display: flex;
+  justify-content: center;
+
+  width: 600px;
+  height: 100px;
+}
+
+.textAreaContainer textarea {
+  width: 670px;
+  height: 200px;
+  max-width: 100%;
+
+  margin-bottom: 2rem;
+}
+
+.textAreaHeader {
+  padding: 2rem;
+
+  background-color: var(--color-title-in-primary);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid lightgrey;
+
+  color: var(--color-text-title);
+}
+
+.textAreaHeaderActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textAreaHeaderActionsDelete {
+  cursor: pointer;
+
+  padding: 0.3125rem;
+
+  transition: 0.3s;
+}
+
+.textAreaHeaderActionsDelete:hover {
+  border-radius: 8px;
+
+  background-color: rgba(255, 173, 64, 0.1);
+}
+
+.textAreaHeader input {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: var(--color-text-title);
+}
+
+.textAreaHeader i {
+  margin-right: 0.5rem;
+  color: var(--color-text-title);
+}

@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 2000" width="3600" height="2000">
+	<title>Novo Projeto</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #a16ee7 } 
+		.shp1 { fill: #31dae7 } 
+	</style>
+	<path id="&lt;Path&gt;" class="shp0" d="M1753.73 1999.73C1723.73 1179.73 2615.73 1249.73 2431.66 738.66C2274.35 301.87 1412.73 505.73 1276.73 -0.27C1766.06 -0.27 2540.4 -0.27 3599.73 -0.27L3599.73 1999.73L1753.73 1999.73Z" />
+	<path id="&lt;Path&gt;" class="shp1" d="M3599.73 -0.27L3108.27 -0.27C3074.37 53.07 3054.73 116.36 3054.73 184.23C3054.73 374.49 3208.97 528.73 3399.23 528.73C3474.03 528.73 3543.25 504.88 3599.73 464.39L3599.73 -0.27Z" />
+</svg>

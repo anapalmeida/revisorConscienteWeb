@@ -1,0 +1,47 @@
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 50vh;
+
+  color: var(--color-title-in-primary);
+}
+
+.homeAddButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 40px;
+
+  margin: 1.25rem;
+
+  background-color: var(--color-secondary);
+
+  border-radius: 0.5rem;
+
+  transition: 0.3s;
+
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.homeAddButton:hover {
+  background-color: var(--color-secondary-dark);
+}
+
+.homeAddButton a {
+  color: var(--color-title-in-primary);
+
+  font-weight: bolder;
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 5rem 0 5rem;
+}
+
+.navBarContainer img {
+  height: 70px;
+}
+
+.navBarContainer ul {
+  display: flex;
+  list-style: none;
+}
+
+.navBarContainer li a {
+  margin-right: 5rem;
+
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-title-in-primary);
+}
+
+.navBarContainer li a:hover {
+  border-bottom: 2px solid var(--color-title-in-primary);
+}

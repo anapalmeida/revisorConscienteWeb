@@ -1,0 +1,10 @@
+#page-translator{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media(min-width: 700px) {
+    #page-translator {
+        max-width: 100%;
+    }
+}
